@@ -12,7 +12,7 @@
   
 
 ### Hosted Project Link
-medicaltracker.vercel.app
+https://medicaltracker.vercel.app
 
 
 ### Project Description
