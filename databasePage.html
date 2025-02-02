@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Data - Medical Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: #4CAF50;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        .btn {
+            padding: 15px;
+            font-size: 1.1em;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn-primary {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #45a049;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f1f1f1;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Patient Data</h1>
+        <form action="submitData" method="post">
+            <label for="patientName">Patient Name</label>
+            <input type="text" id="patientName" name="patientName" required>
+
+            <label for="sugarLevel">Sugar Level</label>
+            <input type="number" id="sugarLevel" name="sugarLevel" required>
+
+            <label for="bloodPressure">Blood Pressure</label>
+            <input type="text" id="bloodPressure" name="bloodPressure" required>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Patient Name</th>
+                    <th>Sugar Level</th>
+                    <th>Blood Pressure</th>
+                </tr>
+            </thead>
+            
+        </table>
+    </div>
+
+</body>
+</html>
