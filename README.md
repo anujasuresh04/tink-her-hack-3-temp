@@ -1,44 +1,43 @@
-# [Project Name] 🎯
+# MEDICAL RECORDER
+🎯
 
 
-## Basic Details
-### Team Name: [Name]
+## KEEPS RECORD OF YOUR MEDICAL RECORDS
+### Team Name MATRIX
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: DIVA D KARAN - CEA
+- Member 2: ANUJA SURESH - CEA
+  
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+medicaltracker.vercel.app
+
 
 ### Project Description
-[2-3 lines about what your project does]
+IT STORES DETILS OF MEDICAL RECORDS
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+TO MONITOR HEALTH CONDITION
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+KEEPING TRACK O F YOUR TEST RESULTS
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+ HTML
+ CSS
+ VSCODE
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- NO
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+
 
 # Run
 [commands]
